@@ -1,0 +1,39 @@
+.wrapper {
+  height: 50vh;
+}
+
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+td {
+	background-color: #0c99c1;
+	border: 3px solid white;
+	font-size:80px;
+	color:#ffffff;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#turn-info {
+  position: fixed;
+  bottom: 200px;
+  right: 200px;
+}
+
+#turn-info span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
